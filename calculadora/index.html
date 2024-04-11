@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!--
+    <h1 id="mensaje"></h1>
+    <script src="./scripts/index.js"></script>
+    -->
+    <div class="calc-container">
+        <div class="numeros">
+            <div class="inp_num">
+                <input id="numero1" type="text" value="0">
+            </div>
+            <div class="inp_num">
+                <input id="numero2" type="text" value="0">
+            </div>
+        </div>
+        <div class="boton">
+            <button onclick="calculadora()" >Resultado</button>
+        </div>
+        <div class="total">
+            <span id="total">Total: 0</span>
+        </div>
+        <div class="operacion">
+            <select id="oper">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="x">x</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+    </div>
+    <script src="./scripts/calculadora.js"></script>
+</body>
+</html>
