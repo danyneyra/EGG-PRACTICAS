@@ -1,0 +1,30 @@
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.carrito-compras{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 600px;
+    padding: 2em;
+    gap: 1em;
+}
+
+.row{
+    display: flex;
+    flex-direction: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    align-items: center;
+}
+
+.row input{
+    max-height: 50px;
+}
+
+.producto{
+    max-height: 50px;
+}

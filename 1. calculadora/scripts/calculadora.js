@@ -21,7 +21,7 @@ function operacion(num1, num2, oper){
         total = num1 / num2
     }
 
-    return total
+    return String()
 }
 
 function calculadora(){

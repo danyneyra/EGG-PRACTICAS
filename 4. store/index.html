@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Práctica EGG 04 - Store</title>
+</head>
+<body>
+    <div class="carrito-compras">
+        <div class="row">
+            <p>Escoge el producto:</p>
+            <select class="producto" name="producto" id="product">
+                <option value="keyboard">Teclado Gamer</option>
+                <option value="mouse">Mouse Gamer</option>
+            </select>
+        </div>
+        <div class="row">
+            <p>Cantidad:</p>
+            <input type="number" name="cantidad" id="quantity" value="0">
+        </div>
+        <div class="row">
+            <p id="total"><b>Total: </b></p>
+            <p id="monto"><b>0</b></p>
+        </div>
+        <div class="row">
+            <button class="boton" onclick="total()">Calcular Total</button>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
