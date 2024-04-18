@@ -21,7 +21,7 @@ function operacion(num1, num2, oper){
         total = num1 / num2
     }
 
-    return String()
+    return total
 }
 
 function calculadora(){
@@ -33,4 +33,5 @@ function calculadora(){
     let total = operacion(num1, num2, oper)
     totalvalor.innerHTML = "Total: " + total
 
+    document.querySelectorAll
 }

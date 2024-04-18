@@ -1,5 +1,4 @@
 
-
 function total(){
     let totalApagar = 0
     // Comprobar producto
