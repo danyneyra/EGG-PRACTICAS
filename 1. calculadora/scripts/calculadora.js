@@ -1,5 +1,5 @@
 function operacion(num1, num2, oper){
-
+    let total
     num1 = Number(num1)
     num2 = Number(num2)
 
@@ -20,7 +20,21 @@ function operacion(num1, num2, oper){
         console.log("Operación: División")
         total = num1 / num2
     }
-
+    else if(oper == "^"){
+        console.log("Operación: Potencia")
+        total = num1
+        for (let index = 1; index < num2; index++) {
+            total = total * num1
+        }
+    }
+    else if(oper == "√"){
+        console.log("Operación: Raíz Cuadrada")
+        total = Math.sqrt(num1)
+    }
+    else if(oper == "3√"){
+        console.log("Operación: Raiz Cúbica")
+        total = Math.cbrt(num1)
+    }
     return total
 }
 
