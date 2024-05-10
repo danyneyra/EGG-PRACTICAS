@@ -22,10 +22,12 @@ function operacion(num1, num2, oper){
     }
     else if(oper == "^"){
         console.log("Operación: Potencia")
-        total = num1
+        /*total = num1
+
         for (let index = 1; index < num2; index++) {
             total = total * num1
-        }
+        }*/
+        total = Math.pow(num1, num2)
     }
     else if(oper == "√"){
         console.log("Operación: Raíz Cuadrada")

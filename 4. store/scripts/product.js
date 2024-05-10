@@ -1,11 +1,11 @@
 
 class Product {
-    constructor(id, title, price, stock, image, onsale, supplier, colors, description){
+    constructor(id, title, price, stock, images, onsale, supplier, colors, description){
         this.id = id
         this.title = title
         this.price = price
         this.stock = stock
-        this.image = image
+        this.images = images
         this.onsale = onsale
         this.colors = colors
         this.description = description
